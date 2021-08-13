@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before {
+    box-sizing: border-box
+}
+
+*::after {
+    box-sizing: border-box
+}
+
+body {
+    background: #d5f1da;
+    min-height: 100vh;
+}
+.frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 500px;
+    background: #d5f1da;
+    overflow: hidden;
+}
+.head {
+    width: 335px;
+    height: 335px;
+    border-radius: 50% 50% 45% 45%;
+    border: 1px solid #666;
+    background: #fed8b1;
+    position: absolute;
+    transform: translate(180px, 100px);
+    box-shadow: 0 -50px 0 10px #935613, 0 -50px 0 11px #666;
+}

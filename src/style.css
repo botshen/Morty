@@ -133,3 +133,38 @@ body {
     left: 0;
     border-radius: 50% 50% 0 0;
 }
+.ear1,
+.ear2 {
+    display: block;
+    position: absolute;
+    content: "";
+    background: #fed8b1;
+    border: 1px solid #666;
+    border-radius: 50%;
+}
+
+.ear1 {
+    width: 78px;
+    height: 75px;
+    top: 250px;
+    left: 150px;
+    z-index: -1;
+}
+.ear2 {
+    width: 78px;
+    height: 70px;
+    top: 250px;
+    left: 465px;
+    z-index: -1;
+}
+.body {
+    position: absolute;
+    top: 400px;
+    left: 220px;
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+    width: 255px;
+    height: 250px;
+    background: #fdfe76;
+    border: 1px solid #666;
+}
